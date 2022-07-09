@@ -15,8 +15,8 @@ def __Main_Menu__():
         __LIMPIAR__();
         __CALCULADORA__();
     elif op == 2: 
-        print("COMING SOON");
-        
+        print(" *** AGREGAREMOS FUNCIONES A LAS LISTAS COMO RECORRER, CALCULAR, Y MAS");
+
 
 def __CALCULADORA__():
     print("*** INGRESA LA OPERACION A REALIZAR ***");
