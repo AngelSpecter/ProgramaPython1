@@ -2,5 +2,5 @@ Programa de repasos de los temas elementales en el area de la programacion de py
 <SPECTRUM>
 
 pendientes: 
-*uso de ficheros para licencia de este programa
+*uso de ficheros 
 *interfaz grafica
