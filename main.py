@@ -16,7 +16,27 @@ def __Main_Menu__():
         __CALCULADORA__();
     elif op == 2: 
         print(" *** AGREGAREMOS FUNCIONES A LAS LISTAS COMO RECORRER, CALCULAR, Y MAS");
-
+        print("INGRESA ALGUNA CADENA PARA TRABAJAR");
+        cadena = input();
+        print("ELIJE QUE DESEAS HACES CON ELLA ...");
+        print("\t1. CONCATENAR\n\t2. MULTIPLICAR\n\t3. AGREGAR");
+        op = int(input());
+        if op == 1: 
+            __LIMPIAR__();
+            print(" CONCATENAREMOS CON UNA NUEVA CADENA QUE TU ESCRIBAS");
+            newcade = input("NUEVA CADENA --> ");
+            print(" LOS RESULTADOS SE TE MOSTRARAN AQUI ABAJO");
+            input("PRESIONA ENTER PARA CONTINUAR . . .");
+            fronconcate = newcade + cadena;
+            backconcate = cadena + newcade;
+            print(" LAS CADENAS QUEDAN DE LA SIGUIENTE FORMA\n\t",fronconcate,"\t",backconcate);
+            print(" PRESIONE 1 PARA SALIR AL MENU PRINCIPAL O 2 PARA VER EL MENU DE CADENAS");
+            elec = input();
+            if elec == 1: 
+                __Main_Menu__();
+            else: 
+                print("TRABAJANDO EN LA MODULARIDAD DE LOS MENUS FALTANTES");
+                print("FIN DEL TRABAJO SIN MODULARIDAD");
 
 def __CALCULADORA__():
     print("*** INGRESA LA OPERACION A REALIZAR ***");
